@@ -1,0 +1,11 @@
+{
+  "name": "samsung-ct-cooling-patent-analysis",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Samsung C&T data-center cooling patent research and team handoff",
+  "scripts": {
+    "validate": "node validate_supplement.mjs",
+    "figures": "node build_figures.mjs"
+  },
+  "devDependencies": {"playwright": "1.62.1"}
+}

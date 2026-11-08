@@ -1,0 +1,47 @@
+{
+  "observedDate": "2026-11-08",
+  "builderRecords": 44,
+  "query2": 8,
+  "query3": 38,
+  "overlap": 2,
+  "screening": {
+    "액침 포함": 2,
+    "인접기술": 1,
+    "제외": 41
+  },
+  "affiliateRecords": 22,
+  "affiliateIncluded": 4,
+  "companyResults": [
+    {
+      "company": "삼성물산",
+      "candidates": 8,
+      "immersion": 2
+    },
+    {
+      "company": "현대건설",
+      "candidates": 14,
+      "immersion": 0
+    },
+    {
+      "company": "GS건설",
+      "candidates": 7,
+      "immersion": 0
+    },
+    {
+      "company": "DL계열(옛 대림산업)",
+      "candidates": 2,
+      "immersion": 0
+    },
+    {
+      "company": "대우건설",
+      "candidates": 8,
+      "immersion": 0
+    },
+    {
+      "company": "SK에코플랜트",
+      "candidates": 5,
+      "immersion": 0
+    }
+  ],
+  "source": "https://www.kipris.or.kr/khome/search/searchResult.do"
+}
