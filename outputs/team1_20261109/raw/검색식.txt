@@ -1,0 +1,29 @@
+삼성물산 데이터센터 냉각 특허분석 검색식 (복사용)
+각 검색식은 한 줄이다. 줄 전체를 복사해 검색창에 붙여넣는다.
+
+[팀원1 / Lens.org]
+검색식 A (콜드플레이트 DLC)
+(title:("cold plate" OR "cold plates" OR "direct liquid cooling" OR "direct-to-chip" OR "coolant distribution unit" OR "liquid cooling" OR "liquid cooled" OR "liquid-cooled") OR abstract:("cold plate" OR "cold plates" OR "direct liquid cooling" OR "direct-to-chip" OR "coolant distribution unit" OR "liquid cooling" OR "liquid cooled" OR "liquid-cooled")) AND (title:(server OR servers OR "data center" OR "data centre" OR datacenter OR rack) OR abstract:(server OR servers OR "data center" OR "data centre" OR datacenter OR rack)) NOT title:(immersion OR immersed OR vehicle OR battery OR inverter OR transformer)
+
+검색식 B (액침냉각)
+(title:(immersion OR immersed OR submerged OR "dielectric fluid" OR "dielectric liquid") OR abstract:(immersion OR immersed OR submerged OR "dielectric fluid" OR "dielectric liquid")) AND (title:cooling OR abstract:cooling) AND (title:(server OR servers OR "data center" OR "data centre" OR datacenter OR rack) OR abstract:(server OR servers OR "data center" OR "data centre" OR datacenter OR rack)) NOT title:(lithography OR vehicle OR battery OR transformer)
+
+[팀원2 / KIPRIS]
+K1 (콜드플레이트 DLC)
+(TL=[콜드플레이트+냉각판+수냉+액냉+액체냉각+"액체 냉각"+"cold plate"+"liquid cooling"]+AB=[콜드플레이트+냉각판+수냉+액냉+액체냉각+"액체 냉각"+"cold plate"+"liquid cooling"])*(TL=[서버+데이터센터+"데이터 센터"+server+"data center"]+AB=[서버+데이터센터+"데이터 센터"+server+"data center"])*!TL=[액침+침지+차량+배터리+인버터]*AD=[20000101~20241231]
+
+K2 (액침냉각)
+(TL=[액침+침지+immersion]+AB=[액침+침지+immersion])*(TL=[냉각+cooling]+AB=[냉각+cooling])*(TL=[서버+데이터센터+"데이터 센터"+server+"data center"]+AB=[서버+데이터센터+"데이터 센터"+server+"data center"])*!TL=[노광+차량+배터리+변압기]*AD=[20000101~20241231]
+
+K3 (대형 건설사)
+AP=[삼성물산+현대건설+디엘이앤씨+대림산업+지에스건설+에스케이에코플랜트+에스케이건설+한화]*(TL=[냉각+공조+냉방+cooling]+AB=[냉각+공조+냉방+cooling])*(TL=[데이터센터+"데이터 센터"+서버+전산실+"data center"]+AB=[데이터센터+"데이터 센터"+서버+전산실+"data center"])*AD=[20000101~20241231]
+
+K4 (삼성 계열사)
+AP=[삼성물산+삼성전자+삼성에스디에스]*(TL=[냉각+공조+cooling]+AB=[냉각+공조+cooling])*(TL=[데이터센터+"데이터 센터"+서버+"data center"]+AB=[데이터센터+"데이터 센터"+서버+"data center"])*AD=[20000101~20241231]
+
+[검색식 C / Lens.org, 시설 쪽 보완 검색 (2026-11-09 추가)]
+(title:("data center" OR "data centre" OR datacenter OR "server room" OR "computer room") OR abstract:("data center" OR "data centre" OR datacenter OR "server room" OR "computer room")) AND abstract:("liquid cooling" OR "liquid cooled" OR "liquid-cooled" OR immersion OR "cold plate" OR "coolant distribution unit" OR "chilled water" OR "facility water") AND abstract:(building OR facility OR "cooling tower" OR chiller OR HVAC OR "air handling" OR piping OR prefabricated OR modular)
+
+[필터 (A·B·C 공통)]
+Jurisdiction = United States / Date Range = Filed 2000-01-01 ~ 2024-12-31
+주의: Lens 기본값은 Published(공개일)이다. 2026-11-08 첫 다운로드는 Published로 받아져 raw/archive_published_filter/에 보관하고, 2026-11-09 Filed로 다시 받은 파일을 분석에 썼다.

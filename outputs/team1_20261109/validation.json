@@ -1,0 +1,155 @@
+{
+  "checked_at": "2026-11-09",
+  "all_passed": true,
+  "failed": [],
+  "checks": {
+    "raw/us_dlc_all": {
+      "sha256_12": "cc142e9c48eb",
+      "rows": 454,
+      "jurisdictions": [
+        "US"
+      ],
+      "application_date_range": [
+        "2002-02-05",
+        "2024-12-23"
+      ],
+      "published_after_2024 (Filed 필터 흔적)": 134
+    },
+    "raw/us_dlc_grant": {
+      "sha256_12": "f0cdc686e6b8",
+      "rows": 851,
+      "jurisdictions": [
+        "US"
+      ],
+      "application_date_range": [
+        "2002-02-05",
+        "2024-12-23"
+      ],
+      "published_after_2024 (Filed 필터 흔적)": 193
+    },
+    "raw/us_imm_all": {
+      "sha256_12": "cfacc60d54cf",
+      "rows": 179,
+      "jurisdictions": [
+        "US"
+      ],
+      "application_date_range": [
+        "2006-04-28",
+        "2024-12-31"
+      ],
+      "published_after_2024 (Filed 필터 흔적)": 47
+    },
+    "raw/us_imm_grant": {
+      "sha256_12": "99b7604a9d89",
+      "rows": 395,
+      "jurisdictions": [
+        "US"
+      ],
+      "application_date_range": [
+        "2006-04-28",
+        "2024-12-31"
+      ],
+      "published_after_2024 (Filed 필터 흔적)": 84
+    },
+    "raw/us_facility_all": {
+      "sha256_12": "b287a8901d37",
+      "rows": 36,
+      "jurisdictions": [
+        "US"
+      ],
+      "application_date_range": [
+        "2008-04-15",
+        "2024-11-15"
+      ],
+      "published_after_2024 (Filed 필터 흔적)": 7
+    },
+    "query_conformance/us_dlc_all": {
+      "rows": 454,
+      "not_matching": []
+    },
+    "query_conformance/us_imm_all": {
+      "rows": 179,
+      "not_matching": []
+    },
+    "query_conformance/us_facility_all": {
+      "rows": 36,
+      "not_matching": []
+    },
+    "clean/dlc_families": {
+      "raw": 454,
+      "kept": 451,
+      "removed": 3,
+      "removed_all_in_excluded_records": true,
+      "not_in_raw": [],
+      "both_tech": 23,
+      "boundary_tag": {
+        "냉매·상변화 표현(2상 냉각 경계)": 43,
+        "분사·제트 냉각": 3
+      }
+    },
+    "clean/dlc_granted": {
+      "raw_granted": 355,
+      "kept": 354,
+      "all_granted": true,
+      "all_in_raw": true
+    },
+    "sum/DLC_yearly_equals_families": {
+      "yearly_sum": 451,
+      "families": 451
+    },
+    "hhi/DLC": {
+      "recomputed": 0.0696,
+      "reported": 0.0696,
+      "share_sum": 1.0
+    },
+    "clean/imm_families": {
+      "raw": 179,
+      "kept": 163,
+      "removed": 16,
+      "removed_all_in_excluded_records": true,
+      "not_in_raw": [],
+      "both_tech": 23,
+      "boundary_tag": {
+        "분사·제트 냉각": 1
+      }
+    },
+    "clean/imm_granted": {
+      "raw_granted": 174,
+      "kept": 157,
+      "all_granted": true,
+      "all_in_raw": true
+    },
+    "sum/Immersion_yearly_equals_families": {
+      "yearly_sum": 163,
+      "families": 163
+    },
+    "hhi/Immersion": {
+      "recomputed": 0.0579,
+      "reported": 0.0579,
+      "share_sum": 1.0
+    },
+    "core_list": {
+      "rows": 20,
+      "per_technology": {
+        "DLC": 10,
+        "Immersion": 10
+      },
+      "missing_columns": [],
+      "empty_cells": {},
+      "all_in_granted_data": true,
+      "unique_families": 20
+    },
+    "facility_search": {
+      "families": 36,
+      "by_type": {
+        "클라우드·데이터센터 운영사": 16,
+        "냉각·전력·인프라 설비 기업": 10,
+        "서버·IT 제조사": 7,
+        "개인·기타": 2,
+        "설계·엔지니어링사(MEP)": 1
+      },
+      "construction_name_hits": 0,
+      "already_in_A_or_B": 31
+    }
+  }
+}

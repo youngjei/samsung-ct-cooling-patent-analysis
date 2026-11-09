@@ -1,0 +1,20 @@
+﻿Display Key,Title,technology,reason
+US D1123918 S,Modular liquid cooled server,DLC,디자인 특허(Design Right). 외관 권리라 기술 분석에서 제외
+US D1132860 S,Liquid-cooling server power supply,DLC,디자인 특허(Design Right). 외관 권리라 기술 분석에서 제외
+US 12262506 B2,Rack with trays for plug-in automotive control units,DLC,자동차 제어기(ECU)용 랙(Aptiv). 위 공개본의 등록본. 데이터센터 서버 냉각 아님
+US 2015/0382511 A1,SUBMERGED DATACENTER,Immersion,바닷속에 데이터센터 모듈을 두는 방식. 서버를 냉각액에 담그는 액침이 아님
+US 8959941 B2,Data center cooling with an air-side economizer and liquid-cooled electronics rack(s),Immersion,공기측 이코노마이저 + 액냉 랙(DLC 계열). 액침 아님
+US 2015/0321739 A1,MARINE SUBSURFACE DATA CENTER VESSEL,Immersion,해저 데이터센터 선박. 액침 아님
+US 2018/0010817 A1,"Submerged, self-sustained waterborne data center facility",Immersion,수상(바지선형) 데이터센터 시설. 서버를 냉각액에 담그는 액침이 아님
+US 2009/0295167 A1,WATER-BASED DATA CENTER,Immersion,수상 데이터센터. 액침 아님
+US 2022/0074431 A1,SUBMERGED REVERSE OSMOSIS SYSTEM,Immersion,역삼투 담수화 시스템. 데이터센터 냉각 아님
+US 8966922 B2,Air-side economizer facilitating liquid-based cooling of an electronics rack,Immersion,공기측 이코노마이저 + 액냉 랙(DLC 계열). 액침 아님
+US 2023/0131311 A1,NATURAL GAS LETDOWN GENERATOR SYSTEM AND METHOD,Immersion,천연가스 감압 발전기 시스템. 서버 냉각이 본 기술이 아님 (정제 후 2차 표본에서 발견)
+US 2017/0030632 A1,PROCESS AND APPARATUS TO SUPER CHILL BEER,Immersion,맥주 급속 냉각. 데이터센터 아님
+US 2017/0004894 A1,NUCLEAR FACILITY,Immersion,원자력 시설. 데이터센터 아님
+US 2016/0035444 A1,ULTRA-SAFE WET STORAGE FACILITY FOR NUCLEAR FUEL,Immersion,사용후핵연료 습식 저장. 데이터센터 아님
+US 2017/0071143 A1,Self-Contained Plant Cloning System and Method,Immersion,식물 복제(삽목) 장치. 데이터센터 아님 (정제 후 2차 표본에서 발견)
+US 2025/0172250 A1,LNG COLD ENERGY RECOVERY BY USING ICE SLURRY,Immersion,"LNG 냉열 회수(얼음 슬러리). 데이터센터는 활용처 중 하나로만 언급, 서버 액침 아님"
+US 7594582 B2,Temperature controlled fluid bath food holding apparatus,Immersion,음식 보온 수조. 데이터센터 아님
+US 2011/0195167 A1,Temperature controlled fluid bath food holding device and method,Immersion,음식 보온 수조. 데이터센터 아님
+US 2007/0253646 A1,Temperature controlled fluid bath food holding device,Immersion,음식 보온 수조. 데이터센터 아님
